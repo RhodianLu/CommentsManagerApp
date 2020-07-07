@@ -1,0 +1,11 @@
+<ul class="post-container">
+    <div class="main-title"> Posts</div>
+    <div *ngFor="let post of post$ | async;"> 
+        <div class ="postbox">
+            <pre>#{{post.id}} {{post.title}}</pre>
+             <button class="showCommentBtn" (click)="showComments(post.id)">Show comments for this post</button>
+            &nbsp;
+        </div>
+    
+    </div>
+</ul>

@@ -1,0 +1,47 @@
+  .main-title{
+    font-size: 28px;
+  }
+  .comment-container {
+    color: #24292e;
+    font-size: 24px;
+    padding: 3px 10px;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: 3px;
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  }
+  .commentbox {
+    padding: 3px 10px;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: 3px;
+  }
+  .commenterdetails{
+    font-weight: 1000;
+  }
+
+  .showPostLink{ 
+    padding: 0;
+    font-size: 16px;
+    margin-left: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: #0519ff;
+  }
+
+  .showPostLink:hover {
+    color: #0210a7;
+  }
+  .searchbox
+  {
+    padding: 3px 10px;
+    margin: 10px;
+    height:30px;
+    width:750px;
+    font-size:14pt;
+  }
+  .searchCommentBtn
+  {
+    padding: 3px 10px;
+    margin: 10px;
+    height:40px;
+    font-size:14pt;
+  }

@@ -1,0 +1,25 @@
+  .main-title{
+    font-size: 28px;
+  }
+  .post-container {
+    color: #24292e;
+    font-size: 24px;
+    padding: 3px 10px;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: 3px;
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+    font-weight: 1000;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  }
+  .postbox {
+    padding: 3px 10px;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: 3px;
+  }
+  .showCommentBtn
+  {
+    padding: 3px 10px;
+    margin: 10px;
+    height:40px;
+    font-size:14pt;
+  }

@@ -1,0 +1,18 @@
+<ul class="comment-container">
+          <input class="searchbox" id="searchboxtxt" type="text" placeholder="Search for name, email, comment body...">
+          <button class="searchCommentBtn" (click)="showFilteredComments(postId$)">Search</button>
+    <div class="main-title"> Comments for Post # {{postId$}}</div>  
+    <div *ngFor="let comment of comment$ | async;"> 
+        <div class ="commentbox">
+            <pre>#{{comment.id}} </pre>
+            <div class=commenterdetails> {{comment.name}}</div>
+            <div class=commenterdetails> ({{comment.email}})</div>
+            &nbsp;         
+            <div>{{comment.body}}</div>
+        </div>
+    </div>
+</ul>
+<nav>
+    <a class="showPostLink" routerLink="">Return to all posts</a>
+</nav>
+
